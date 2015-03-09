@@ -2,21 +2,23 @@
 
 En text kallas i JavaScript för en sträng (string). Man anger alltid strängar inom apostrofer, `'` även kända som enkelfnuttar. Dubbelapostrof, `"`, funkar också, men vi håller oss till enkla apostrofer.
 
-Prova att skriva ut ditt namn i konsolen. Mitt ser ut så här:
+Prova att skriva ut ditt namn i konsollen. Mitt ser ut så här:
 
 `console.log('Jesper')`
 
+När man jobbar direkt i konsollen kan man hoppa över `console.log()`. Så det blir faktiskt samma resultat om vi skriver `'Jesper'` direkt. 
+
 JavaScript är bra på att räkna antalet bokstäver i en sträng. Prova genom att skriva följande:
 
-`console.log('Jesper'.length)`
+`'Jesper'.length`
 
 Stämmer det?
 
 Det finns ett antal bra funktioner man kan köra på en sträng. Prova dessa.Vad händer?
 
 ```javascript
-console.log('Jesper'.toUpperCase())
-console.log('Jesper'.toLowerCase())
+'Jesper'.toUpperCase()
+'Jesper'.toLowerCase()
 ```
 
 Fler strängfunktioner hittar du [här](http://www.w3schools.com/jsref/jsref_obj_string.asp)
@@ -27,17 +29,17 @@ En variabel är som en hink med ett namn där ett värde kan lagras. Värdet kan
 
 ```javascript
 var name = 'Jesper';
-console.log(name.toUpperCase());
-console.log(name.toLowerCase());
+name.toUpperCase()
+name.toLowerCase()
 ```
 Vi använder nyckelordet `var` för att deklarera variabeln.
 
 Man kan limma ihop strängar med plustecken:
 
 ```javascript
-var firstname = 'Jesper';
-var lastname = 'Svensson';
-console.log(firstname + lastname);
+var firstname = 'Jesper'
+var lastname = 'Svensson'
+firstname + lastname
 ```
 
 Kan du klura ut hur du ska få ett mellanslag mellan förnamnet och efternamnet?
@@ -47,11 +49,11 @@ Kan du klura ut hur du ska få ett mellanslag mellan förnamnet och efternamnet?
 Jag vill att din kod ska skriva ut 1 till 5 genom att göra fem `console.log`-anrop. Då kan man skriva så här:
 
 ```javascript
-console.log(1);
-console.log(2);
-console.log(3);
-console.log(4);
-console.log(5);
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
 ```
 
 Hur roligt var det där då? Inte alls, eller hur? Repetitiva uppgifter är typiska grejor som vi ska låta datorn sköta. Ok? Då är det läge att använda en slinga.
