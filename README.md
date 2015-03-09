@@ -12,8 +12,10 @@ Förbered miljön så här innan du går vidare:
 
 Skriv så här i konsollen: `console.log('hej')`
 
-Skriver den *hej* som resultat? Topp! Då är vi på gång!
+Skriver den *hej* som resultat? Topp! Då är vi på gång! 
 
 ![chrome-console-test](https://cloud.githubusercontent.com/assets/4598641/6552010/2c3baf46-c641-11e4-95ea-61fab7654c27.png)
+
+Varför står det *undefined* under? Det är för att funktionen `console.log` inte returnerar något värde. Mer om funktioner längre fram.
 
 *Baserat på http://vaxjo.coderdojo.se/experiment/javascript-del-ett/*
