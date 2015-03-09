@@ -6,7 +6,7 @@ Förbered miljön så här innan du går vidare:
 
 2. Starta ett tomt fönster i Chrome.
 
-3. Vi börjar med att testa att konsollen i chrome funkar. Öppna konsollen med t.ex. ctrl-shift-J i Windows. Se bilden.
+3. Vi börjar med att testa att konsollen i Chrome fungerar. Öppna konsollen med t.ex. *ctrl-shift-J* i Windows. Se bilden.
 
 ![Chrome-tools-menu](https://cloud.githubusercontent.com/assets/4598641/6551970/ac0adb08-c640-11e4-837a-d4ec8addbe31.png)
 
