@@ -1,6 +1,7 @@
 # Javascript-labb
 
 Förbered miljön:
+
 1. Skaffa webbläsaren Google Chrome, om du inte redan har den (https://www.google.com/intl/sv/chrome/browser/). Chrome har ett fantastiskt bra utvecklarverktyg som kommer att hjälpa dig när du utvecklar för webben i allmänhet och JavaScript i synnerhet.
 
 2. Starta ett tomt fönster i Chrome.
