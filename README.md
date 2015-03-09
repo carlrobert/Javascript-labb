@@ -1,6 +1,6 @@
 # Javascript-labb
 
-Förbered miljön:
+Förbered miljön så hår:
 
 1. Skaffa webbläsaren Google Chrome, om du inte redan har den (https://www.google.com/intl/sv/chrome/browser/). Chrome har ett fantastiskt bra utvecklarverktyg som kommer att hjälpa dig när du utvecklar för webben i allmänhet och JavaScript i synnerhet.
 
@@ -8,8 +8,11 @@ Förbered miljön:
 
 3. Vi börjar med att testa att konsollen i chrome funkar. Öppna konsollen med t.ex. ctrl-shift-J i Windows. Se bilden.
 
-4. Skriv så här i konsollen: `console.log('hej')`
+![chrome-tools-menu](https://cloud.githubusercontent.com/assets/4598641/6551970/ac0adb08-c640-11e4-837a-d4ec8addbe31.png)
 
-5. Skriver den *hej* som resultat? Topp! Då är vi på gång!
+Skriv så här i konsollen: `console.log('hej')`
+
+Skriver den *hej* som resultat? Topp! Då är vi på gång!
 
 *Baserat på http://vaxjo.coderdojo.se/experiment/javascript-del-ett/*
+
