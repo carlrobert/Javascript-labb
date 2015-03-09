@@ -104,8 +104,8 @@ if (name === 'Elvis') {
 ```
 
 Tre likhetstecken? Varför då?
-*Ett likhetstecken använder när man ger en variabel ett värde, t.ex.
-`var name = 'Jesper';` Tre likhetstecken ger en strikt jämförelse, och utan att gå in på mer detaljer kring det just nu &ndash; bara använd det.
+*Ett* likhetstecken använder när man ger en variabel ett värde, t.ex.
+`var name = 'Jesper';` *Tre* likhetstecken ger en strikt jämförelse, och utan att gå in på mer detaljer kring det just nu &ndash; bara använd det.
 
 Man kan också skriva ut något om jämförelsen inte lyckas, dvs:
 
@@ -122,7 +122,7 @@ if (name === 'Elvis') {
 Det går också att kolla tvärtom &ndash; om något *inte* är lika med &ndash; och då använder man utropstecknet tillsammans med två likhetstecken, `!==`. Till exempel:
 
 ```javascript
-//js/main.js:
+// js/main.js:
 var name = 'Elvisp';
 if (name !== 'Elvis') {
   console.log ('Du är ju inte Elvis');
@@ -133,7 +133,7 @@ if (name !== 'Elvis') {
 JavaScript &ndash; och din dator &ndash; är grymt snabba på att räkna. Prova själv!
 
 ```javascript
-js/main.js:
+// js/main.js:
 var varde1 = 20;
 var varde2 = 7;
 console.log(varde1 + varde2);
@@ -148,8 +148,9 @@ Man kan också slumpa fram ett numeriskt värde genom att använda `Math.random(
 console.log(Math.random());
 console.log(Math.floor((Math.random() * 100) + 1));
 ```
-*`Math.floor()` avrundar nedåt till närmaste heltal.
-*`Math.ceil()` avrundar uppåt till närmaste heltal.
+
+`Math.floor()` avrundar nedåt till närmaste heltal.
+`Math.ceil()` avrundar uppåt till närmaste heltal.
 
 I nästa del är det dags för funktioner!
 
