@@ -8,11 +8,10 @@ Förbered miljön så hår:
 
 3. Vi börjar med att testa att konsollen i chrome funkar. Öppna konsollen med t.ex. ctrl-shift-J i Windows. Se bilden.
 
-![chrome-tools-menu](https://cloud.githubusercontent.com/assets/4598641/6551970/ac0adb08-c640-11e4-837a-d4ec8addbe31.png)
+![chrome-console-test](https://cloud.githubusercontent.com/assets/4598641/6552010/2c3baf46-c641-11e4-95ea-61fab7654c27.png)
 
 Skriv så här i konsollen: `console.log('hej')`
 
 Skriver den *hej* som resultat? Topp! Då är vi på gång!
 
 *Baserat på http://vaxjo.coderdojo.se/experiment/javascript-del-ett/*
-
