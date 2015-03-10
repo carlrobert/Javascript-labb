@@ -61,6 +61,13 @@ Hur roligt var det där då? Inte alls, eller hur? Repetitiva uppgifter är typi
 Eftersom en slinga ofta behöver mer än en kodrad så är det dags att lägga koden i en fil. Häng med!
 
 ##En fil att ha koden i
+Gör en mapp för dina projektfiler.
+
+Installera [NotePad++](http://notepad-plus-plus.org/) (Windows) eller [Sublime Text](http://www.sublimetext.com/) (MacOS)
+
+Skapa en ny fil som heter *main.js* i din mapp. Där kommer vi att ha programkoden.
+
+Så här kan det se ut i Windows. Jag har valt att kalla mappen *Min-mapp*.
 
 ##Vi kodar en slinga
 En slinga funkar så här: du anger ett startvärde, ett slutvärde och hur mycket det ska räkna upp varje gång slingan körs.
