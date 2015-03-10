@@ -69,6 +69,9 @@ Skapa en ny fil som heter *main.js* i din mapp. Där kommer vi att ha programkod
 
 Så här kan det se ut i Windows. Jag har valt att kalla mappen *Min-mapp*.
 
+![min-mapp](https://cloud.githubusercontent.com/assets/4598641/6570440/eb70982c-c6fa-11e4-88d8-ff1e7ac2bfed.png)
+
+
 ##Vi kodar en slinga
 En slinga funkar så här: du anger ett startvärde, ett slutvärde och hur mycket det ska räkna upp varje gång slingan körs.
 
