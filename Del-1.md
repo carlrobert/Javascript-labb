@@ -77,8 +77,8 @@ En slinga funkar så här: du anger ett startvärde, ett slutvärde och hur myck
 
 I klartext: värdet börjar på 1, gör så länge värdet är mindre eller lika med 5, räkna upp värdet med ett varje gång loopen körs.  JavaScript skriver man det så här:
 
-Skriv den här koden i filen `main.js`:
 ```javascript
+// main.js
 var i;
 for ( i = 1; i <= 5; i += 1 ) {
    console.log('hej');
