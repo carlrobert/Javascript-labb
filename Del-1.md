@@ -71,6 +71,10 @@ Så här kan det se ut i Windows. Jag har valt att kalla mappen *Min-mapp*.
 
 ![min-mapp](https://cloud.githubusercontent.com/assets/4598641/6570440/eb70982c-c6fa-11e4-88d8-ff1e7ac2bfed.png)
 
+Vi vill köra vår JavaScript-kod i webbläsaren. Därför behöver vi anropa den från en HTML-fil som vi öppnar i webbläsaren.
+
+Gör en ny fil i samma mapp. Döp filen till *index.html* och skriv in den här HTML-koden.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -107,17 +111,20 @@ for ( i = 1; i <= 5; i += 1 ) {
 
 Vi ger variabeln `i` värdet 1, anger att slingan ska köras så länge `i` är mindre eller lika med 5 och till slut skriver vi `i += 1` så att för varje runda som slingan körs ska värdet av `i` ökas med ett. Det som körs för varje gång slingan körs är det som finns mellan måsvingarna, `{` och `}`.
 
-Prova att köra koden. Dyker det upp fem stycken `hej` i konsollen?
+Skriv in koden i *main.js*. Dubbelklicka på *index.html* så öppnas den i Chrome. Öppna konsollfönstret.
+Dyker det upp fem stycken `hej` i konsollen?
 
 För att skriva ut siffrorna 1 till 5 så ändrar vi `hej`:et till variabeln `i`:
 
 ```javascript
-// js/main.js:
+// main.js:
 var i;
 for ( i = 1; i <= 5; i += 1 ) {
    console.log(i);
 }
 ```
+
+Kör koden genom att ladda om sidan (*F5* i WIndows).
 
 Fiffigt, va?
 
@@ -126,7 +133,7 @@ Fiffigt, va?
 Ofta när man programmerar vill man göra på ett visst sätt om ett villkor uppfylls. Till exempel: om namnet är Jesper, skriv ut "Hej Jesper". I kod blir det:
 
 ```javascript
-// js/main.js:
+// main.js:
 var name = 'Elvis';
 if (name === 'Elvis') {
   console.log ('Hej Elvis!');
@@ -140,7 +147,7 @@ Tre likhetstecken? Varför då?
 Man kan också skriva ut något om jämförelsen inte lyckas, dvs:
 
 ```javascript
-// js/main.js:
+// main.js:
 var name = 'Elvis';
 if (name === 'Elvis') {
   console.log ('Hej Elvis');
@@ -152,7 +159,7 @@ if (name === 'Elvis') {
 Det går också att kolla tvärtom &ndash; om något *inte* är lika med &ndash; och då använder man utropstecknet tillsammans med två likhetstecken, `!==`. Till exempel:
 
 ```javascript
-// js/main.js:
+// main.js:
 var name = 'Elvisp';
 if (name !== 'Elvis') {
   console.log ('Du är ju inte Elvis');
@@ -163,7 +170,7 @@ if (name !== 'Elvis') {
 JavaScript &ndash; och din dator &ndash; är grymt snabba på att räkna. Prova själv!
 
 ```javascript
-// js/main.js:
+// main.js:
 var varde1 = 20;
 var varde2 = 7;
 console.log(varde1 + varde2);
@@ -174,7 +181,7 @@ Prova att byta ut plustecknet mot `-`, `*`, `/` eller `%`. Just `%` ger resten v
 Man kan också slumpa fram ett numeriskt värde genom att använda `Math.random()`-funktionen. I första exemplet får vi ett slumpat värde mellan 0 och 1 och i det andra exemplet ett värde mellan 1 och 100.
 
 ```javascript
-// js/main.js:
+// main.js:
 console.log(Math.random());
 console.log(Math.floor((Math.random() * 100) + 1));
 ```
