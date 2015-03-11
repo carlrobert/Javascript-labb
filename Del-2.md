@@ -100,3 +100,5 @@ for (var i = 0; i < weekDays.length; i += 1) {
 ```
 
 Det var lite funktioner och lite listor. I [del 3](https://github.com/carlrobert/Javascript-labb/blob/master/Del-3.md) ska JavaScript börja snacka med HTML-dokumentet.
+
+*Materialet är baserat på http://vaxjo.coderdojo.se/experiment/javascript-del-tre/*
