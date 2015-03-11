@@ -1,3 +1,5 @@
+#Reagera på händelser och uppdatera webbsidan
+
 Med JavaScript kan du också lyssna på händelser och modifiera innehållet och utseendet i en webbsida. Det ska vi prova nu.
 
 I din *index.html*-fil skapar du ett antal HTML-objekt efter *<body>*-taggen:
