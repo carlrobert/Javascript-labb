@@ -189,6 +189,6 @@ console.log(Math.floor((Math.random() * 100) + 1));
 `Math.floor()` avrundar nedåt till närmaste heltal.
 `Math.ceil()` avrundar uppåt till närmaste heltal.
 
-I nästa del är det dags för funktioner!
+I [del 2](https://github.com/carlrobert/Javascript-labb/blob/master/Del-2.md) är det dags för funktioner!
 
 *Baserat på http://vaxjo.coderdojo.se/experiment/javascript-del-tva/*
