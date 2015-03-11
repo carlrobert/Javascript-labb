@@ -18,4 +18,6 @@ Skriver den *hej* som resultat? Topp! Då är vi på gång!
 
 Varför står det *undefined* under? Det är för att funktionen `console.log` inte returnerar något värde. Mer om funktioner längre fram.
 
+Nu är det dags att köra igång med [del 1!](https://github.com/carlrobert/Javascript-labb/blob/master/Del-1.md)
+
 *Baserat på http://vaxjo.coderdojo.se/experiment/javascript-del-ett/*
