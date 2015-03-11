@@ -1,3 +1,5 @@
+#Del 1. Grunderna
+
 #Strängar
 
 En text kallas i JavaScript för en sträng (string). Man anger alltid strängar inom apostrofer, `'` även kända som enkelfnuttar. Dubbelapostrof, `"`, funkar också, men vi håller oss till enkla apostrofer.
