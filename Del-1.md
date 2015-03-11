@@ -80,6 +80,7 @@ Gör en ny fil i samma mapp. Döp filen till *index.html* och skriv in den här 
 <html>
     <head>
 	    <title>V&auml;lkommen</title>
+	    <link rel="stylesheet" href="main.css" />
 	</head>
 	<body>
 	    <p>Hejhejhej!</p>
