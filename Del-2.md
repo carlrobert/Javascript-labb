@@ -97,5 +97,6 @@ kan vi referera till längden på listan direkt istället genom
 for (var i = 0; i < weekDays.length; i += 1) {
   console.log(weekDays[i]);
 }
+```
 
-Det var lite funktioner och lite listor. I nästa del ska JavaScript börja snacka med HTML-dokumentet.
+Det var lite funktioner och lite listor. I [del 3](https://github.com/carlrobert/Javascript-labb/blob/master/Del-3.md) ska JavaScript börja snacka med HTML-dokumentet.
