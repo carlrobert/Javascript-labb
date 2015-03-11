@@ -1,3 +1,4 @@
+#Del 2. Funktioner sparar arbete
 Då har vi utvecklingsmiljön på plats och har gått igenom strängar, variabler, slingor, *if*-satser och lite matte.
 
 Nu ska vi kika på funktioner.
