@@ -1,4 +1,4 @@
-#Reagera på händelser och uppdatera webbsidan
+#Del 3. Reagera på händelser och uppdatera webbsidan
 
 Med JavaScript kan du också lyssna på händelser och modifiera innehållet och utseendet i en webbsida. Det ska vi prova nu.
 
@@ -13,7 +13,7 @@ I din *index.html*-fil skapar du ett antal HTML-objekt efter *<body>*-taggen:
 Det vi har skapat är en *div* (division) som är en tagg som brukar användas för att gruppera andra HTML-objekt.
 *Button* är en knapp med texten *Tryck på mig!* och slutligen har vi ett inmatningsfält där man kan mata in en text.
 
-Innan vi börjar javascripta kan vi lägga till lite css i *main.css*-filen för att styra utseende på vår sida.
+Innan vi börjar javascripta kan vi lägga till lite css i *main.css*-filen för att styra utseende på vår sida. Gör en ny fil som heter *main.css* i samma mapp som innan.
 
 ```HTML
 (main.css)
